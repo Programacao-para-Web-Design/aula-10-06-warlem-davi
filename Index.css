@@ -1,1 +1,109 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    position: fixed;
+    width: 99%;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+a{
+    color: white;
+    font-weight: bold;
+}
+img{
+    height: 30px;
+    width: 30px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+#tituloHeader{
+    font-size: 30px;
+}
 
+                    /* --- CORPO --- */
+
+body{
+    background-color: rgb(255, 170, 0);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1{
+    font-size: 14pt;
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+}
+p{
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+#FireFly{
+    display: block;
+    height: 70%;
+    width: 70%;
+    margin-top: 5%;
+}
+
+                    /* --- BLOCOS --- */
+
+#bloco1{
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+    scroll-behavior: smooth;
+    background-image:url(./Imagem/img1.png);
+    background-size: cover;
+    padding: 20px;
+}
+#bloco2{
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+    scroll-behavior: smooth;
+    background-image:url(./Imagem/img2.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+#bloco3{
+    width: 50%;
+    color: white;
+    margin-top: 50px;
+    scroll-behavior: smooth;
+    background-image:url(./Imagem/img3.jpeg);
+    background-size: cover;
+    padding: 20px;
+}
+.materia{
+    right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+.text{
+    margin-left: 20px;
+}
+
+                    /* --- RODAPÉ --- */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+}
